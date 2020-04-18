@@ -15,4 +15,3 @@ RCT_EXTERN_METHOD(turnOff)
 RCT_EXTERN_METHOD(getStatus: (RCTResponseSenderBlock)callback)
 
 @end
-

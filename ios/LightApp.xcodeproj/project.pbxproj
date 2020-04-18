@@ -10,6 +10,8 @@
 		007CBF392445E002005BB40A /* Bulb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007CBF382445E002005BB40A /* Bulb.swift */; };
 		007CBF3B2445E2D1005BB40A /* Bulb.m in Sources */ = {isa = PBXBuildFile; fileRef = 007CBF3A2445E2D1005BB40A /* Bulb.m */; };
 		0094B269244B23F90012E1EB /* BulbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094B268244B23F90012E1EB /* BulbView.swift */; };
+		0094B26B244B2EAE0012E1EB /* BulbViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094B26A244B2EAE0012E1EB /* BulbViewManager.swift */; };
+		0094B26D244B2FE40012E1EB /* BulbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0094B26C244B2FE40012E1EB /* BulbView.m */; };
 		00E356F31AD99517003FC87E /* LightAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LightAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
@@ -48,6 +50,8 @@
 		007CBF3A2445E2D1005BB40A /* Bulb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bulb.m; sourceTree = "<group>"; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		0094B268244B23F90012E1EB /* BulbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbView.swift; sourceTree = "<group>"; };
+		0094B26A244B2EAE0012E1EB /* BulbViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbViewManager.swift; sourceTree = "<group>"; };
+		0094B26C244B2FE40012E1EB /* BulbView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BulbView.m; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* LightAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* LightAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightAppTests.m; sourceTree = "<group>"; };
@@ -141,8 +145,10 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				007CBF382445E002005BB40A /* Bulb.swift */,
 				0094B268244B23F90012E1EB /* BulbView.swift */,
+				0094B26A244B2EAE0012E1EB /* BulbViewManager.swift */,
 				007CBF372445E002005BB40A /* LightApp-Bridging-Header.h */,
 				007CBF3A2445E2D1005BB40A /* Bulb.m */,
+				0094B26C244B2FE40012E1EB /* BulbView.m */,
 			);
 			name = LightApp;
 			sourceTree = "<group>";
@@ -541,10 +547,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0094B269244B23F90012E1EB /* BulbView.swift in Sources */,
+				0094B26B244B2EAE0012E1EB /* BulbViewManager.swift in Sources */,
 				007CBF392445E002005BB40A /* Bulb.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				007CBF3B2445E2D1005BB40A /* Bulb.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				0094B26D244B2FE40012E1EB /* BulbView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

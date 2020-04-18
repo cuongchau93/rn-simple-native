@@ -7,7 +7,7 @@
 import UIKit
 
 class BulbView: UIView {
-  @objc var onStatusChange: RCTDirectEventBlock?
+  @objc var onStatusChanged: RCTDirectEventBlock?
   @objc var isOn: Bool = false  {
     didSet {
       button.setTitle(String(describing: isOn ? "Switch Off" : "Switch On"), for: .normal)
@@ -34,6 +34,6 @@ class BulbView: UIView {
   }()
   @objc func changeBulbStatus() {
     isOn = !isOn as Bool
-    onStatusChange!(["isOn": isOn])
-  }
+    onStatusChanged!(["isOn": isOn])
+  }  
 }

@@ -39,9 +39,9 @@ export default () => {
     });
   };
 
-  // const onClick = event => {
-  //   setIsOn(event.nativeEvent.isOn);
-  // };
+  const onClick = event => {
+    setIsOn(event.nativeEvent.isOn);
+  };
 
   return (
     <View style={styles.container}>
@@ -56,7 +56,7 @@ export default () => {
         <Button style={styles.button} onPress={turnOn} title="Turn ON " />
         <Button style={styles.button} onPress={turnOff} title="Turn OFF" />
       </View>
-      {/* <BulbView style={styles.bulb} isOn={isOn} onStatusChanged={onClick} /> */}
+      <BulbView style={styles.bulb} isOn={isOn} onStatusChanged={onClick} />
       <View style={styles.bottom}>
         {/* <Image style={styles.tinyLogo} source={require('./ic_launcher.png')} /> */}
       </View>
